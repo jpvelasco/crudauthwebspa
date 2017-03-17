@@ -1,0 +1,20 @@
+{
+  "name": "CrudAuthWebSpa",
+  "version": "1.0.0",
+  "description": "Sample SPA Web Authentication with Azure AD",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpvelasco/crudauthwebspa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
