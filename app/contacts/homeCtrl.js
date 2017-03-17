@@ -22,8 +22,8 @@ var homeCtrl = (function () {
     homeCtrl.prototype.isActive = function (viewLocation) {
         return viewLocation === this.$location.path();
     };
-    homeCtrl.$inject = ['adalAuthenticationService', '$location'];
     return homeCtrl;
 }());
+homeCtrl.$inject = ['adalAuthenticationService', '$location'];
 angular.module('contactApp')
     .controller('homeCtrl', homeCtrl);
